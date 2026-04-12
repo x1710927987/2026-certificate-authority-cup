@@ -1,0 +1,14 @@
+{
+  "model": "For a cell j visited at time t_j, accumulated thermal exposure is computed from all previously scanned cells i: H_j = sum_i A * exp(-alpha*(t_j - t_i)) * exp(-beta*d_ij), where t_j > t_i.",
+  "A": 1.0,
+  "alpha_per_s": 0.18,
+  "beta_per_mm": 0.08,
+  "H_crit": 1.35,
+  "risk_metrics": {
+    "peak_exposure": "max_j H_j",
+    "mean_exposure": "average_j H_j",
+    "exceedance_count": "number of cells with H_j > H_crit",
+    "composite_score_example": "0.6 * peak_exposure + 0.4 * mean_exposure + 0.2 * exceedance_count"
+  },
+  "recommended_local_relation_use": "For local heat-coupling models, users may start from pairs in local_geometry_relations.csv, or filter transition_matrix.csv using local_relation_flag == 1."
+}

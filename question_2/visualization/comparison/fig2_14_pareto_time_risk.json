@@ -1,0 +1,12 @@
+{
+  "figure_id": "fig2_14",
+  "x_metric": "total_task_time_s",
+  "y_metric": "weighted_sum_total_risk",
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\comparison\\fig2_14_pareto_time_risk.png"
+}

@@ -1,0 +1,9 @@
+{
+  "figure_id": "fig2_2",
+  "title": "Threshold alignment",
+  "reference_scheme": "row_major",
+  "H_crit": 1.35,
+  "H_thres": 0.0011071112728471679,
+  "quantile_q": 0.09137055837563451,
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\mechanism\\fig2_2_threshold_alignment.png"
+}

@@ -1,0 +1,16 @@
+{
+  "figure_id": "fig2_8",
+  "representative_layer": {
+    "part_id": "part_A",
+    "layer_id": 5,
+    "cell_count": 39,
+    "mean_weighted_risk": 13.990705055718797
+  },
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\temporal\\fig2_8_heat_evolution.png"
+}

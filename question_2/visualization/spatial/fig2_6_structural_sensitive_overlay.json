@@ -1,0 +1,17 @@
+{
+  "figure_id": "fig2_6",
+  "hole_layer": {
+    "part_id": "part_A",
+    "layer_id": 5,
+    "cell_count": 39,
+    "mean_weighted_risk": 13.990705055718797
+  },
+  "thin_layer": {
+    "part_id": "part_B",
+    "layer_id": 1,
+    "cell_count": 28,
+    "mean_weighted_risk": 11.586217972734847
+  },
+  "scheme_name": "minimum_time",
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\spatial\\fig2_6_structural_sensitive_overlay.png"
+}

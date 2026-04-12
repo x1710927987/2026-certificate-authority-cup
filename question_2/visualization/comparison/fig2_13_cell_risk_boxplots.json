@@ -1,0 +1,16 @@
+{
+  "figure_id": "fig2_13",
+  "metrics": [
+    "mu",
+    "xi",
+    "theta",
+    "phi"
+  ],
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\comparison\\fig2_13_cell_risk_boxplots.png"
+}

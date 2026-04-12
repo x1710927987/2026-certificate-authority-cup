@@ -1,0 +1,14 @@
+﻿group_name,feature_name,weight_value
+R_mu,mu_mean,0.03255502366979325
+R_mu,mu_top10_mean,0.9674449763302068
+R_xi,xi_mean,0.9714300242222039
+R_xi,xi_max,0.02856997577779607
+R_theta,theta_mean,0.5130924752905512
+R_theta,theta_top10_mean,0.48690752470944876
+R_phi,phi_mean,0.4385107348659158
+R_phi,phi_top10_mean,0.0966127536764147
+R_phi,phi_max,0.4648765114576695
+first_level,R_theta,0.35
+first_level,R_mu,0.2
+first_level,R_xi,0.2
+first_level,R_phi,0.25

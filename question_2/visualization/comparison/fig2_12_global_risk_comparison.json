@@ -1,0 +1,16 @@
+{
+  "figure_id": "fig2_12",
+  "metrics": [
+    "R_theta",
+    "R_mu",
+    "R_xi",
+    "R_phi"
+  ],
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\comparison\\fig2_12_global_risk_comparison.png"
+}

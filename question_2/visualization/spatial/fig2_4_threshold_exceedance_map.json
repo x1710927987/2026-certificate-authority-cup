@@ -1,0 +1,17 @@
+{
+  "figure_id": "fig2_4",
+  "representative_layer": {
+    "part_id": "part_A",
+    "layer_id": 5,
+    "cell_count": 39,
+    "mean_weighted_risk": 13.990705055718797
+  },
+  "H_thres": 0.0011071112728471679,
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\spatial\\fig2_4_threshold_exceedance_map.png"
+}

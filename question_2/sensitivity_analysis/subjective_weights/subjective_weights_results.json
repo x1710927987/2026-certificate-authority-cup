@@ -1,0 +1,78 @@
+{
+  "analysis_type": "question_2_subjective_weight_sensitivity",
+  "base_material_name": "PA12",
+  "threshold_quantile_q": 0.09137055837563451,
+  "H_thres": 0.0011071112728471679,
+  "scenarios": [
+    {
+      "scenario_name": "base",
+      "scenario_description": "Base first-level weights from the main model",
+      "R_theta_weight": 0.35,
+      "R_mu_weight": 0.2,
+      "R_xi_weight": 0.2,
+      "R_phi_weight": 0.25,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "base_material_name": "PA12",
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "scenario_name": "hotspot_priority",
+      "scenario_description": "Prioritize local overheating",
+      "R_theta_weight": 0.45,
+      "R_mu_weight": 0.2,
+      "R_xi_weight": 0.15,
+      "R_phi_weight": 0.2,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "base_material_name": "PA12",
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "scenario_name": "cycle_stability_priority",
+      "scenario_description": "Prioritize thermal cycling and stability",
+      "R_theta_weight": 0.25,
+      "R_mu_weight": 0.3,
+      "R_xi_weight": 0.3,
+      "R_phi_weight": 0.15,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "base_material_name": "PA12",
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "scenario_name": "uniformity_priority",
+      "scenario_description": "Prioritize thermal uniformity",
+      "R_theta_weight": 0.25,
+      "R_mu_weight": 0.2,
+      "R_xi_weight": 0.2,
+      "R_phi_weight": 0.35,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "base_material_name": "PA12",
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "scenario_name": "balanced",
+      "scenario_description": "Balanced first-level weights",
+      "R_theta_weight": 0.25,
+      "R_mu_weight": 0.25,
+      "R_xi_weight": 0.25,
+      "R_phi_weight": 0.25,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "base_material_name": "PA12",
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    }
+  ]
+}

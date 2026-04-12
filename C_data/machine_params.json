@@ -1,0 +1,18 @@
+{
+  "scan_speed_mm_per_s": 600.0,
+  "travel_speed_mm_per_s": 1800.0,
+  "laser_on_delay_s": 0.015,
+  "layer_change_time_s": 1.5,
+  "cell_size_mm": 4.0,
+  "path_constraints": {
+    "start_rule": "Each layer may start at any one cell center chosen by the planner.",
+    "end_rule": "Each layer ends at the final visited cell center.",
+    "revisit_allowed": false,
+    "intra_cell_pattern_fixed": true,
+    "note": "Only the sequence of scanning cells is optimized; scan direction within a cell is ignored.",
+    "added_relation_files": [
+      "transition_matrix.csv now enriched with geometric relation columns",
+      "local_geometry_relations.csv provides compact local neighbor relations"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+﻿scenario_name,scenario_description,R_theta_weight,R_mu_weight,R_xi_weight,R_phi_weight,H_crit,quantile_q,H_thres,base_material_name,best_scheme_weighted_sum,best_scheme_topsis
+base,Base first-level weights from the main model,0.35,0.2,0.2,0.25,1.35,0.09137055837563451,0.0011071112728471679,PA12,serpentine,serpentine
+hotspot_priority,Prioritize local overheating,0.45,0.2,0.15,0.2,1.35,0.09137055837563451,0.0011071112728471679,PA12,serpentine,serpentine
+cycle_stability_priority,Prioritize thermal cycling and stability,0.25,0.3,0.3,0.15,1.35,0.09137055837563451,0.0011071112728471679,PA12,serpentine,serpentine
+uniformity_priority,Prioritize thermal uniformity,0.25,0.2,0.2,0.35,1.35,0.09137055837563451,0.0011071112728471679,PA12,serpentine,serpentine
+balanced,Balanced first-level weights,0.25,0.25,0.25,0.25,1.35,0.09137055837563451,0.0011071112728471679,PA12,serpentine,serpentine

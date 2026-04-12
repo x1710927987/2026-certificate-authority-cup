@@ -1,0 +1,79 @@
+{
+  "analysis_type": "question_2_model_parameter_sensitivity",
+  "parameter_name": "A_0",
+  "parameter_values": [
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "base_material_name": "PA12",
+  "results_summary": [
+    {
+      "parameter_name": "A_0",
+      "parameter_value": 2.0,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0006819532981675664,
+      "A0_self_heat": 2.0,
+      "alpha_per_s": 0.18,
+      "beta_per_mm": 0.08,
+      "gamma_contact": 0.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "parameter_name": "A_0",
+      "parameter_value": 3.0,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0008930929130470644,
+      "A0_self_heat": 3.0,
+      "alpha_per_s": 0.18,
+      "beta_per_mm": 0.08,
+      "gamma_contact": 0.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "parameter_name": "A_0",
+      "parameter_value": 4.0,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "A0_self_heat": 4.0,
+      "alpha_per_s": 0.18,
+      "beta_per_mm": 0.08,
+      "gamma_contact": 0.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "parameter_name": "A_0",
+      "parameter_value": 5.0,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0013151925244142798,
+      "A0_self_heat": 5.0,
+      "alpha_per_s": 0.18,
+      "beta_per_mm": 0.08,
+      "gamma_contact": 0.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "parameter_name": "A_0",
+      "parameter_value": 6.0,
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0015232737759813917,
+      "A0_self_heat": 6.0,
+      "alpha_per_s": 0.18,
+      "beta_per_mm": 0.08,
+      "gamma_contact": 0.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+﻿group_name,feature_name,weight_value,scenario_name,scenario_description
+R_mu,mu_mean,0.03255502366979325,base,Base first-level weights from the main model
+R_mu,mu_top10_mean,0.9674449763302068,base,Base first-level weights from the main model
+R_xi,xi_mean,0.9714300242222039,base,Base first-level weights from the main model
+R_xi,xi_max,0.02856997577779607,base,Base first-level weights from the main model
+R_theta,theta_mean,0.5130924752905512,base,Base first-level weights from the main model
+R_theta,theta_top10_mean,0.48690752470944876,base,Base first-level weights from the main model
+R_phi,phi_mean,0.4385107348659158,base,Base first-level weights from the main model
+R_phi,phi_top10_mean,0.0966127536764147,base,Base first-level weights from the main model
+R_phi,phi_max,0.4648765114576695,base,Base first-level weights from the main model
+first_level,R_theta,0.35,base,Base first-level weights from the main model
+first_level,R_mu,0.2,base,Base first-level weights from the main model
+first_level,R_xi,0.2,base,Base first-level weights from the main model
+first_level,R_phi,0.25,base,Base first-level weights from the main model
+R_mu,mu_mean,0.03255502366979325,hotspot_priority,Prioritize local overheating
+R_mu,mu_top10_mean,0.9674449763302068,hotspot_priority,Prioritize local overheating
+R_xi,xi_mean,0.9714300242222039,hotspot_priority,Prioritize local overheating
+R_xi,xi_max,0.02856997577779607,hotspot_priority,Prioritize local overheating
+R_theta,theta_mean,0.5130924752905512,hotspot_priority,Prioritize local overheating
+R_theta,theta_top10_mean,0.48690752470944876,hotspot_priority,Prioritize local overheating
+R_phi,phi_mean,0.4385107348659158,hotspot_priority,Prioritize local overheating
+R_phi,phi_top10_mean,0.0966127536764147,hotspot_priority,Prioritize local overheating
+R_phi,phi_max,0.4648765114576695,hotspot_priority,Prioritize local overheating
+first_level,R_theta,0.45,hotspot_priority,Prioritize local overheating
+first_level,R_mu,0.2,hotspot_priority,Prioritize local overheating
+first_level,R_xi,0.15,hotspot_priority,Prioritize local overheating
+first_level,R_phi,0.2,hotspot_priority,Prioritize local overheating
+R_mu,mu_mean,0.03255502366979325,cycle_stability_priority,Prioritize thermal cycling and stability
+R_mu,mu_top10_mean,0.9674449763302068,cycle_stability_priority,Prioritize thermal cycling and stability
+R_xi,xi_mean,0.9714300242222039,cycle_stability_priority,Prioritize thermal cycling and stability
+R_xi,xi_max,0.02856997577779607,cycle_stability_priority,Prioritize thermal cycling and stability
+R_theta,theta_mean,0.5130924752905512,cycle_stability_priority,Prioritize thermal cycling and stability
+R_theta,theta_top10_mean,0.48690752470944876,cycle_stability_priority,Prioritize thermal cycling and stability
+R_phi,phi_mean,0.4385107348659158,cycle_stability_priority,Prioritize thermal cycling and stability
+R_phi,phi_top10_mean,0.0966127536764147,cycle_stability_priority,Prioritize thermal cycling and stability
+R_phi,phi_max,0.4648765114576695,cycle_stability_priority,Prioritize thermal cycling and stability
+first_level,R_theta,0.25,cycle_stability_priority,Prioritize thermal cycling and stability
+first_level,R_mu,0.3,cycle_stability_priority,Prioritize thermal cycling and stability
+first_level,R_xi,0.3,cycle_stability_priority,Prioritize thermal cycling and stability
+first_level,R_phi,0.15,cycle_stability_priority,Prioritize thermal cycling and stability
+R_mu,mu_mean,0.03255502366979325,uniformity_priority,Prioritize thermal uniformity
+R_mu,mu_top10_mean,0.9674449763302068,uniformity_priority,Prioritize thermal uniformity
+R_xi,xi_mean,0.9714300242222039,uniformity_priority,Prioritize thermal uniformity
+R_xi,xi_max,0.02856997577779607,uniformity_priority,Prioritize thermal uniformity
+R_theta,theta_mean,0.5130924752905512,uniformity_priority,Prioritize thermal uniformity
+R_theta,theta_top10_mean,0.48690752470944876,uniformity_priority,Prioritize thermal uniformity
+R_phi,phi_mean,0.4385107348659158,uniformity_priority,Prioritize thermal uniformity
+R_phi,phi_top10_mean,0.0966127536764147,uniformity_priority,Prioritize thermal uniformity
+R_phi,phi_max,0.4648765114576695,uniformity_priority,Prioritize thermal uniformity
+first_level,R_theta,0.25,uniformity_priority,Prioritize thermal uniformity
+first_level,R_mu,0.2,uniformity_priority,Prioritize thermal uniformity
+first_level,R_xi,0.2,uniformity_priority,Prioritize thermal uniformity
+first_level,R_phi,0.35,uniformity_priority,Prioritize thermal uniformity
+R_mu,mu_mean,0.03255502366979325,balanced,Balanced first-level weights
+R_mu,mu_top10_mean,0.9674449763302068,balanced,Balanced first-level weights
+R_xi,xi_mean,0.9714300242222039,balanced,Balanced first-level weights
+R_xi,xi_max,0.02856997577779607,balanced,Balanced first-level weights
+R_theta,theta_mean,0.5130924752905512,balanced,Balanced first-level weights
+R_theta,theta_top10_mean,0.48690752470944876,balanced,Balanced first-level weights
+R_phi,phi_mean,0.4385107348659158,balanced,Balanced first-level weights
+R_phi,phi_top10_mean,0.0966127536764147,balanced,Balanced first-level weights
+R_phi,phi_max,0.4648765114576695,balanced,Balanced first-level weights
+first_level,R_theta,0.25,balanced,Balanced first-level weights
+first_level,R_mu,0.25,balanced,Balanced first-level weights
+first_level,R_xi,0.25,balanced,Balanced first-level weights
+first_level,R_phi,0.25,balanced,Balanced first-level weights

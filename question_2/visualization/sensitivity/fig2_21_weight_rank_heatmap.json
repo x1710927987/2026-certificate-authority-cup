@@ -1,0 +1,17 @@
+{
+  "figure_id": "fig2_21",
+  "scenarios": [
+    "base",
+    "hotspot_priority",
+    "cycle_stability_priority",
+    "uniformity_priority",
+    "balanced"
+  ],
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\sensitivity\\fig2_21_weight_rank_heatmap.png"
+}

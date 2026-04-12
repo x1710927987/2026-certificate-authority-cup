@@ -1,0 +1,27 @@
+{
+  "figure_id": "fig2_7",
+  "scheme_name": "row_major",
+  "hole_layer": {
+    "part_id": "part_A",
+    "layer_id": 5,
+    "cell_count": 39,
+    "mean_weighted_risk": 13.990705055718797
+  },
+  "thin_layer": {
+    "part_id": "part_B",
+    "layer_id": 1,
+    "cell_count": 28,
+    "mean_weighted_risk": 11.586217972734847
+  },
+  "hole_layer_cells": {
+    "hotspot": "L05_C018",
+    "hole": "L05_C018",
+    "normal": "L05_C001"
+  },
+  "thin_layer_cells": {
+    "hotspot": "L01_C010",
+    "thin": "L01_C010",
+    "normal": "L01_C009"
+  },
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\temporal\\fig2_7_representative_cell_histories.png"
+}

@@ -1,0 +1,92 @@
+{
+  "analysis_type": "question_2_material_sensitivity",
+  "materials": [
+    "PA12",
+    "316L",
+    "Ti-6Al-4V",
+    "AlSi10Mg",
+    "Inconel 718"
+  ],
+  "results_summary": [
+    {
+      "material_name": "PA12",
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0011071112728471679,
+      "kappa_mat": 8.77824007319606,
+      "specific_heat_j_per_kg_k": 1435.0,
+      "density_g_per_cm3": 0.9850000000000001,
+      "cte_1e_minus_6_per_k": 149.0,
+      "melting_temperature_c": 177.5,
+      "delta_T_safe_c": 152.5,
+      "reference_alpha_L": 16.16,
+      "reference_delta_T": 1274.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "material_name": "316L",
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0004128410780603221,
+      "kappa_mat": 0.9680559658104362,
+      "specific_heat_j_per_kg_k": 475.0,
+      "density_g_per_cm3": 7.98,
+      "cte_1e_minus_6_per_k": 16.16,
+      "melting_temperature_c": 1385.0,
+      "delta_T_safe_c": 1360.0,
+      "reference_alpha_L": 16.16,
+      "reference_delta_T": 1274.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "material_name": "Ti-6Al-4V",
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0006409491341934556,
+      "kappa_mat": 0.6422912740580787,
+      "specific_heat_j_per_kg_k": 553.0,
+      "density_g_per_cm3": 4.415,
+      "cte_1e_minus_6_per_k": 8.5,
+      "melting_temperature_c": 1650.0,
+      "delta_T_safe_c": 1625.0,
+      "reference_alpha_L": 16.16,
+      "reference_delta_T": 1274.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "material_name": "AlSi10Mg",
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0006488340183834443,
+      "kappa_mat": 1.7067883924832992,
+      "specific_heat_j_per_kg_k": 905.0,
+      "density_g_per_cm3": 2.665,
+      "cte_1e_minus_6_per_k": 20.5,
+      "melting_temperature_c": 580.0,
+      "delta_T_safe_c": 555.0,
+      "reference_alpha_L": 16.16,
+      "reference_delta_T": 1274.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    },
+    {
+      "material_name": "Inconel 718",
+      "H_crit": 1.35,
+      "quantile_q": 0.09137055837563451,
+      "H_thres": 0.0004261944396590581,
+      "kappa_mat": 0.9156910499780485,
+      "specific_heat_j_per_kg_k": 447.5,
+      "density_g_per_cm3": 8.205,
+      "cte_1e_minus_6_per_k": 13.55,
+      "melting_temperature_c": 1299.5,
+      "delta_T_safe_c": 1274.5,
+      "reference_alpha_L": 16.16,
+      "reference_delta_T": 1274.5,
+      "best_scheme_weighted_sum": "serpentine",
+      "best_scheme_topsis": "serpentine"
+    }
+  ]
+}

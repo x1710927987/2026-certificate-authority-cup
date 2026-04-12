@@ -1,0 +1,5 @@
+{
+  "figure_id": "fig2_20",
+  "input_csv": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\sensitivity_analysis\\materials\\materials_overall_summary.csv",
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\sensitivity\\fig2_20_material_rank_heatmap.png"
+}

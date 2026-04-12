@@ -1,0 +1,17 @@
+{
+  "figure_id": "fig2_5",
+  "representative_layer": {
+    "part_id": "part_A",
+    "layer_id": 5,
+    "cell_count": 39,
+    "mean_weighted_risk": 13.990705055718797
+  },
+  "metric": "phi",
+  "schemes": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "output_image": "D:\\Users\\24932\\Desktop\\C_data\\question_2\\visualization\\spatial\\fig2_5_phi_map.png"
+}

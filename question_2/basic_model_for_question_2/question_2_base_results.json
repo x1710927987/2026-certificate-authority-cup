@@ -1,0 +1,320 @@
+{
+  "model_scope": "Question 2 base model only (no sensitivity analysis or visualization in this script)",
+  "scheme_names": [
+    "row_major",
+    "serpentine",
+    "center_out",
+    "minimum_time"
+  ],
+  "base_material_name": "PA12",
+  "material_context": {
+    "ambient_temperature_c": 25.0,
+    "base_material": {
+      "material_name": "PA12",
+      "raw_name": "PA12（尼龙 12） / Polyamide 12 (PA12)",
+      "melting_temperature_c": 177.5,
+      "specific_heat_j_per_kg_k": 1435.0,
+      "density_g_per_cm3": 0.9850000000000001,
+      "cte_1e_minus_6_per_k": 149.0,
+      "melting_temperature_range": "170–185",
+      "specific_heat_range": "1170–1700",
+      "density_range": "0.93–1.04",
+      "cte_range": "100–198"
+    },
+    "reference_alpha_L": 16.16,
+    "reference_delta_T": 1274.5,
+    "delta_T_safe": 152.5,
+    "kappa_mat": 8.77824007319606
+  },
+  "thermal_model_parameters": {
+    "A0_self_heat": 4.0,
+    "A1_neighbor_heat": 1.0,
+    "alpha_per_s": 0.18,
+    "beta_per_mm": 0.08,
+    "gamma_contact": 0.5,
+    "contact_length_scale_mm": 4.0,
+    "H_crit_original": 1.35,
+    "H_thres_aligned": 0.0011071112728471679,
+    "threshold_quantile_q": 0.09137055837563451
+  },
+  "structural_sensitivity_parameters": {
+    "lambda_thin": 0.35,
+    "lambda_hole": 0.25,
+    "S_type_formula": "1 + lambda_1 * I_thin + lambda_2 * I_hole",
+    "S_formula": "1 + kappa_mat * (S_type - 1)"
+  },
+  "schedule_metadata": {
+    "schedule": [
+      {
+        "schedule_index": 1,
+        "part_id": "part_A",
+        "layer_id": 1
+      },
+      {
+        "schedule_index": 2,
+        "part_id": "part_B",
+        "layer_id": 1
+      },
+      {
+        "schedule_index": 3,
+        "part_id": "part_A",
+        "layer_id": 2
+      },
+      {
+        "schedule_index": 4,
+        "part_id": "part_B",
+        "layer_id": 2
+      },
+      {
+        "schedule_index": 5,
+        "part_id": "part_A",
+        "layer_id": 3
+      },
+      {
+        "schedule_index": 6,
+        "part_id": "part_B",
+        "layer_id": 3
+      },
+      {
+        "schedule_index": 7,
+        "part_id": "part_A",
+        "layer_id": 4
+      },
+      {
+        "schedule_index": 8,
+        "part_id": "part_B",
+        "layer_id": 4
+      },
+      {
+        "schedule_index": 9,
+        "part_id": "part_A",
+        "layer_id": 5
+      },
+      {
+        "schedule_index": 10,
+        "part_id": "part_B",
+        "layer_id": 5
+      },
+      {
+        "schedule_index": 11,
+        "part_id": "part_A",
+        "layer_id": 6
+      },
+      {
+        "schedule_index": 12,
+        "part_id": "part_B",
+        "layer_id": 6
+      }
+    ],
+    "inter_part_switch_count": 6,
+    "inter_layer_change_count": 5,
+    "inter_part_transfer_distance_mm": 50.0,
+    "inter_part_transfer_time_per_switch_s": 0.027777777777777776,
+    "layer_change_time_s": 1.5
+  },
+  "scheme_overall_summary": [
+    {
+      "scheme_name": "center_out",
+      "layer_count": 12,
+      "travel_distance_mm": 6201.720900000001,
+      "travel_time_s": 3.4454005,
+      "scan_time_s": 2.2066666666666666,
+      "laser_on_time_s": 5.91,
+      "intra_layer_total_time_s": 11.562067166666667,
+      "inter_layer_change_time_s": 7.5,
+      "inter_part_transfer_distance_mm": 300.0,
+      "inter_part_transfer_time_s": 0.16666666666666666,
+      "total_task_time_s": 19.228733833333333,
+      "cell_count": 394,
+      "mu_mean": 0.003584953882992413,
+      "mu_top10_mean": 0.007769197913643007,
+      "xi_mean": 7.750457597835978,
+      "xi_max": 18.294108308708417,
+      "theta_mean": 9.891349496335634,
+      "theta_top10_mean": 95.379792538906,
+      "phi_mean": 0.00027383564423321175,
+      "phi_top10_mean": 0.000390962753182034,
+      "phi_max": 0.0004319740683374129,
+      "scan_heat_mean": 0.0014777082589105001,
+      "peak_heat_max": 0.002354337280918463,
+      "final_heat_mean": 0.001957980360478692,
+      "R_mu": 0.007632979750184986,
+      "R_xi": 8.051689443255146,
+      "R_theta": 51.51631568945827,
+      "R_phi": 0.0003586664556838894,
+      "weighted_sum_total_risk": 19.642664642525375,
+      "weighted_sum_rank": 4,
+      "topsis_score": 0.08162639871391103,
+      "topsis_rank": 4
+    },
+    {
+      "scheme_name": "minimum_time",
+      "layer_count": 12,
+      "travel_distance_mm": 1552.0,
+      "travel_time_s": 0.8622222222222222,
+      "scan_time_s": 2.2066666666666666,
+      "laser_on_time_s": 5.91,
+      "intra_layer_total_time_s": 8.97888888888889,
+      "inter_layer_change_time_s": 7.5,
+      "inter_part_transfer_distance_mm": 300.0,
+      "inter_part_transfer_time_s": 0.16666666666666666,
+      "total_task_time_s": 16.645555555555557,
+      "cell_count": 394,
+      "mu_mean": 0.0035915329458760326,
+      "mu_top10_mean": 0.006925553362454406,
+      "xi_mean": 8.496034478650214,
+      "xi_max": 18.062419579600537,
+      "theta_mean": 6.244273080053569,
+      "theta_top10_mean": 61.50608983852766,
+      "phi_mean": 0.0001873667466620926,
+      "phi_top10_mean": 0.00035394507997401546,
+      "phi_max": 0.000569143122745806,
+      "scan_heat_mean": 0.0014837828914829468,
+      "peak_heat_max": 0.002613232525236976,
+      "final_heat_mean": 0.002016827698712079,
+      "R_mu": 0.006817014248877123,
+      "R_xi": 8.769345869265434,
+      "R_theta": 33.15166748886932,
+      "R_phi": 0.000380939208016933,
+      "weighted_sum_total_risk": 13.358411432609127,
+      "weighted_sum_rank": 3,
+      "topsis_score": 0.593975398697498,
+      "topsis_rank": 3
+    },
+    {
+      "scheme_name": "row_major",
+      "layer_count": 12,
+      "travel_distance_mm": 2789.6817,
+      "travel_time_s": 1.5498231666666666,
+      "scan_time_s": 2.2066666666666666,
+      "laser_on_time_s": 5.91,
+      "intra_layer_total_time_s": 9.666489833333333,
+      "inter_layer_change_time_s": 7.5,
+      "inter_part_transfer_distance_mm": 300.0,
+      "inter_part_transfer_time_s": 0.16666666666666666,
+      "total_task_time_s": 17.3331565,
+      "cell_count": 394,
+      "mu_mean": 0.0035268555692417256,
+      "mu_top10_mean": 0.007181995681418807,
+      "xi_mean": 8.712774744474132,
+      "xi_max": 17.975900335125242,
+      "theta_mean": 4.221553065980977,
+      "theta_top10_mean": 41.58229769991262,
+      "phi_mean": 0.00019974018404306416,
+      "phi_top10_mean": 0.00031867047620331507,
+      "phi_max": 0.00039177263256755723,
+      "scan_heat_mean": 0.0014823843390817533,
+      "peak_heat_max": 0.0025337082211015715,
+      "final_heat_mean": 0.002003934486191003,
+      "R_mu": 0.007063002508550471,
+      "R_xi": 8.977422018225717,
+      "R_theta": 22.412780756990454,
+      "R_phi": 0.00030050174182094734,
+      "weighted_sum_total_risk": 9.641445394528967,
+      "weighted_sum_rank": 2,
+      "topsis_score": 0.9303937207544091,
+      "topsis_rank": 2
+    },
+    {
+      "scheme_name": "serpentine",
+      "layer_count": 12,
+      "travel_distance_mm": 1900.7531999999999,
+      "travel_time_s": 1.055974,
+      "scan_time_s": 2.2066666666666666,
+      "laser_on_time_s": 5.91,
+      "intra_layer_total_time_s": 9.172640666666666,
+      "inter_layer_change_time_s": 7.5,
+      "inter_part_transfer_distance_mm": 300.0,
+      "inter_part_transfer_time_s": 0.16666666666666666,
+      "total_task_time_s": 16.839307333333334,
+      "cell_count": 394,
+      "mu_mean": 0.003540298569499876,
+      "mu_top10_mean": 0.007160843428322609,
+      "xi_mean": 8.713858895542838,
+      "xi_max": 17.903766278001324,
+      "theta_mean": 4.160639360397221,
+      "theta_top10_mean": 40.98229769991262,
+      "phi_mean": 0.00019712535727403756,
+      "phi_top10_mean": 0.00034344145096287386,
+      "phi_max": 0.0003877028515985415,
+      "scan_heat_mean": 0.0014834680062755748,
+      "peak_heat_max": 0.002542835856358274,
+      "final_heat_mean": 0.0020118856431885325,
+      "R_mu": 0.007042976504746087,
+      "R_xi": 8.976414326859866,
+      "R_theta": 22.089381878187694,
+      "R_phi": 0.00029985635871641154,
+      "weighted_sum_total_risk": 9.528050082128294,
+      "weighted_sum_rank": 1,
+      "topsis_score": 0.9323349939885555,
+      "topsis_rank": 1
+    }
+  ],
+  "evaluation_weight_summary": [
+    {
+      "group_name": "R_mu",
+      "feature_name": "mu_mean",
+      "weight_value": 0.03255502366979325
+    },
+    {
+      "group_name": "R_mu",
+      "feature_name": "mu_top10_mean",
+      "weight_value": 0.9674449763302068
+    },
+    {
+      "group_name": "R_xi",
+      "feature_name": "xi_mean",
+      "weight_value": 0.9714300242222039
+    },
+    {
+      "group_name": "R_xi",
+      "feature_name": "xi_max",
+      "weight_value": 0.02856997577779607
+    },
+    {
+      "group_name": "R_theta",
+      "feature_name": "theta_mean",
+      "weight_value": 0.5130924752905512
+    },
+    {
+      "group_name": "R_theta",
+      "feature_name": "theta_top10_mean",
+      "weight_value": 0.48690752470944876
+    },
+    {
+      "group_name": "R_phi",
+      "feature_name": "phi_mean",
+      "weight_value": 0.4385107348659158
+    },
+    {
+      "group_name": "R_phi",
+      "feature_name": "phi_top10_mean",
+      "weight_value": 0.0966127536764147
+    },
+    {
+      "group_name": "R_phi",
+      "feature_name": "phi_max",
+      "weight_value": 0.4648765114576695
+    },
+    {
+      "group_name": "first_level",
+      "feature_name": "R_theta",
+      "weight_value": 0.35
+    },
+    {
+      "group_name": "first_level",
+      "feature_name": "R_mu",
+      "weight_value": 0.2
+    },
+    {
+      "group_name": "first_level",
+      "feature_name": "R_xi",
+      "weight_value": 0.2
+    },
+    {
+      "group_name": "first_level",
+      "feature_name": "R_phi",
+      "weight_value": 0.25
+    }
+  ]
+}
